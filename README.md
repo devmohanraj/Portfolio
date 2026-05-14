@@ -1,25 +1,44 @@
 # Mohanraj Portfolio
 
-A modern minimal developer portfolio built with React.js, Vite, and Tailwind CSS. It is frontend-only, beginner-friendly, responsive, and easy to customize.
+## Description
+
+This is my clean, minimal portfolio built with React, Vite, and Tailwind CSS. It is frontend-only, responsive, and easy to tweak if you are just getting started or polishing your online presence.
 
 ## Features
 
-- Single-page portfolio layout
-- Navbar with active section highlighting
-- Hero, About, Skills, Projects, Contact, and Footer sections
-- Dark mode toggle
-- Smooth scrolling
-- Responsive design for mobile, tablet, and desktop
+- Single-page layout with smooth scrolling
+- Sections for Hero, About, Skills, Projects, Contact, and Footer
+- Dark mode toggle with responsive design
 - Project cards with GitHub and live demo links
 - Frontend-only contact form UI
 
 ## Tech Stack
 
-- React.js
-- Vite
-- Tailwind CSS
+- React 18
+- Vite 6
+- Tailwind CSS 3
+- PostCSS + Autoprefixer
 
-## Folder Structure
+## Installation
+
+```bash
+npm install
+```
+
+## Usage
+
+```bash
+# start the dev server
+npm run dev
+
+# build for production
+npm run build
+
+# preview the production build
+npm run preview
+```
+
+## Project Structure
 
 ```text
 src/
@@ -36,53 +55,18 @@ src/
     Skills.jsx
 ```
 
-## Getting Started
+## Future Improvements
 
-Install dependencies:
+- Hook the contact form to a backend or form service
+- Make projects and skills editable from a simple CMS
+- Add analytics to track visits and clicks
 
-```bash
-npm install
-```
+## Author
 
-Start the development server:
+Mohanraj
 
-```bash
-npm run dev
-```
+- GitHub: https://github.com/devmohanraj
 
-Create a production build:
+---
 
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
-
-## Customize
-
-- Update personal links in `src/components/Hero.jsx` and `src/components/Contact.jsx`.
-- Replace `public/Mohanraj_Resume.txt` with your final resume PDF.
-- Replace `public/developer-illustration.svg` with a final generated image if desired.
-- Edit project details in `src/components/Projects.jsx`.
-- Edit skills in `src/components/Skills.jsx`.
-
-## Deploy On Vercel
-
-1. Push this project to GitHub.
-2. Open Vercel and import the repository.
-3. Keep the framework preset as `Vite`.
-4. Use `npm run build` as the build command.
-5. Use `dist` as the output directory.
-6. Click Deploy.
-
-## Deploy On Netlify
-
-1. Push this project to GitHub.
-2. Open Netlify and import the repository.
-3. Set the build command to `npm run build`.
-4. Set the publish directory to `dist`.
-5. Click Deploy.
+Built with care and easy customization. 🙂
